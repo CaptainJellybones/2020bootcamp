@@ -7,5 +7,5 @@ h1 {
 }
 
 img {
-    background-color: red;
+    background: linear-gradient(red,rgb(95, 17, 17));
 }
