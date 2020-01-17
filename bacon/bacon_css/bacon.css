@@ -9,3 +9,9 @@ h1 {
 img {
     background: linear-gradient(red,rgb(95, 17, 17));
 }
+
+/*********************************CLASS SELECTORS*******************************/
+
+.broccoli {
+    background: linear-gradient(rgb(88, 219, 88), green);
+}
