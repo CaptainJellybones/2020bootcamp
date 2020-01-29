@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+/*************** CLASS SELECTORS **************/
+.top-container {
+    background-color: #f6f6f6;
+    width: 20%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+/**************** ID SELECTORS ****************/
+#middle-container, #bottom-container {
+    width: 200px;
+    height: 200px;
+    margin-top: 0;
+}
+
+#middle-container {
+    background-color: red;
+}
+
+#bottom-container {
+    background-color: blue;
+}

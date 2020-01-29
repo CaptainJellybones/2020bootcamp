@@ -1,0 +1,23 @@
+body {
+    background-color: aliceblue; 
+}
+
+hr {
+    border-color: gray;
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1, h3 {
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+}
+
+h1:hover {
+    color: chartreuse;
+    text-align: center;
+}
+
+/***********************CLASS SELECTORS********************/
