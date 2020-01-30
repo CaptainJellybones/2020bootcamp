@@ -12,15 +12,30 @@ h1 {
 /* https://colorhunt.co/palette/170044 */
 .top-container {
     background-color: #f1fcfc;
-    bottom: 30px;
+    position: relative;
+    padding-top: 100px;
 }
 
-/**************** ID SELECTORS ****************/
 .block {
     width: 200px;
     height: 200px;
     position: absolute;
 }
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+/**************** ID SELECTORS ****************/
+
 
 #yellow {
     background-color: yellow;
@@ -29,18 +44,11 @@ h1 {
 #red {
     background-color: red;
     left: 400px;
-    top: 955px;
+    top: 950px;
 }
 
 #blue {
     background-color: blue;
     left: 200px;
-    top: 755px;
-}
-
-#cloud-div {
-    left: 30px;
-    position: relative;
-    top: 170px;
-    width: 30%;
+    top: 750px;
 }
