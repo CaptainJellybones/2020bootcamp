@@ -1,29 +1,46 @@
 body {
     margin: 0;
+    text-align: center;
 }
 
 h1 {
-    margin: 0;
+    margin: 0 auto 0 auto;
+    width: 20%;
 }
 /*************** CLASS SELECTORS **************/
+
+/* https://colorhunt.co/palette/170044 */
 .top-container {
-    background-color: #f6f6f6;
-    width: 20%;
-    text-align: center;
-    margin-top: 20%;
+    background-color: #f1fcfc;
+    bottom: 30px;
 }
 
 /**************** ID SELECTORS ****************/
-#middle-container, #bottom-container {
+.block {
     width: 200px;
     height: 200px;
-    margin-top: 0;
+    position: absolute;
 }
 
-#middle-container {
+#yellow {
+    background-color: yellow;
+}
+
+#red {
     background-color: red;
+    left: 400px;
+    top: 955px;
 }
 
-#bottom-container {
+#blue {
     background-color: blue;
+    left: 200px;
+    top: 755px;
+}
+
+#cloud-div {
+    left: 30px;
+    position: relative;
+    top: 170px;
+    width: 30%;
 }
