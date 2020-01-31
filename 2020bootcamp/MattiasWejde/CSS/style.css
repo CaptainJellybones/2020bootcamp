@@ -1,11 +1,13 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: 'Righteous', cursive;
 }
 
 h1 {
     margin: 0 auto 0 auto;
     width: 20%;
+    font-family: 'Sigmar One', cursive;
 }
 /*************** CLASS SELECTORS **************/
 
@@ -15,6 +17,11 @@ h1 {
     position: relative;
     padding-top: 100px;
 }
+
+.sacramento {
+    font-family: 'Sigmar One', cursive;
+}
+
 
 .block {
     width: 200px;
