@@ -9,6 +9,7 @@ h1 {
     width: 20%;
     font-family: 'Sigmar One', cursive;
 }
+
 /*************** CLASS SELECTORS **************/
 
 /* https://colorhunt.co/palette/170044 */
@@ -16,6 +17,14 @@ h1 {
     background-color: #f1fcfc;
     position: relative;
     padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+    
 }
 
 .sacramento {
@@ -43,19 +52,3 @@ h1 {
 
 /**************** ID SELECTORS ****************/
 
-
-#yellow {
-    background-color: yellow;
-}
-
-#red {
-    background-color: red;
-    left: 400px;
-    top: 950px;
-}
-
-#blue {
-    background-color: blue;
-    left: 200px;
-    top: 750px;
-}
