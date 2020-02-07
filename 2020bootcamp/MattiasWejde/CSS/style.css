@@ -29,6 +29,7 @@ hr {
     border-width: 5px;
     margin: auto;
     clear: right;
+    padding-bottom: 20px;
 }
 
 a {
@@ -46,8 +47,9 @@ a {
     padding-top: 100px;
 }
 
-.middle-container {
-
+.middle-container hr {
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
 
 .bottom-container {
@@ -132,7 +134,8 @@ a {
 	width:200px;
 	text-decoration:none;
 	text-align:center;
-	text-shadow:1px 1px 0px #69747a;
+    text-shadow:1px 1px 0px #69747a;
+    margin: 40px 0 140px 0;
 }
 .classname:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a2a8eb), color-stop(1, #44f6fc) );
@@ -146,13 +149,15 @@ a {
 
 .footer-link {
     color: #11999E;
-    padding-bottom: 20px;
-    position: absolute;
+    margin: auto;
+    position: relative;
+    padding-left: 20px;
+
 }
 
 .copyright {
-    margin: 0;
-    padding-bottom: 20px;
+    margin: auto;
+    padding: 50px 0 50px 0;
 }
 /************************************** ID SELECTORS *************************************/
 /************************************** ID SELECTORS *************************************/
