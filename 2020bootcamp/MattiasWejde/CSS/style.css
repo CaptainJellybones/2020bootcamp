@@ -20,16 +20,17 @@ h2 {
     padding-bottom: 20px;
 }
 
-h3, a {
+h3,
+a {
     color: #11999e;
 }
 
 hr {
     border-style: dotted none none;
     border-color: gray;
-    width: 10%;
+    width: 5.5%;
     border-width: 5px;
-    margin: auto;
+    margin: 70px auto;
     clear: right;
 
 }
@@ -43,19 +44,17 @@ hr {
     background-color: #f1fcfc;
     position: relative;
     padding-top: 100px;
+    width: 100%;
 }
 
 .middle-container {
-    margin: 100px 0;
+    margin: 100px 0 50px 0;
+    width: 100%;
 }
 
-.middle-container hr {
-    margin-top: 80px;
-    margin-bottom: 20px;
-}
 
 .bottom-container {
-    padding-top: 100px;
+    padding: 50px 0 20px;
     background-color: #b2e1e2;
     position: relative;
 }
@@ -104,67 +103,144 @@ hr {
 }
 
 .classname {
-	-moz-box-shadow:inset 0px 1px 0px 0px #c8e7eb;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #c8e7eb;
-	box-shadow:inset 0px 1px 0px 0px #c8e7eb;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #44f6fc), color-stop(1, #a2a8eb) );
-	background:-moz-linear-gradient( center top, #44f6fc 5%, #a2a8eb 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44f6fc', endColorstr='#a2a8eb');
-	background-color:#44f6fc;
-	-webkit-border-top-left-radius:15px;
-	-moz-border-radius-topleft:15px;
-	border-top-left-radius:15px;
-	-webkit-border-top-right-radius:15px;
-	-moz-border-radius-topright:15px;
-	border-top-right-radius:15px;
-	-webkit-border-bottom-right-radius:15px;
-	-moz-border-radius-bottomright:15px;
-	border-bottom-right-radius:15px;
-	-webkit-border-bottom-left-radius:15px;
-	-moz-border-radius-bottomleft:15px;
-	border-bottom-left-radius:15px;
-	text-indent:0px;
-	border:2px solid #c1d0e6;
-	display:inline-block;
-	color:#fafafa;
-	font-family:arial;
-	font-size:24px;
-	font-weight:bold;
-	font-style:normal;
-	height:50px;
-	line-height:50px;
-	width:200px;
-	text-decoration:none;
-	text-align:center;
-    text-shadow:1px 1px 0px #69747a;
-    margin: 40px 0 140px 0;
+    -moz-box-shadow: inset 0px 1px 0px 0px #c8e7eb;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #c8e7eb;
+    box-shadow: inset 0px 1px 0px 0px #c8e7eb;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44f6fc), color-stop(1, #a2a8eb));
+    background: -moz-linear-gradient(center top, #44f6fc 5%, #a2a8eb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#44f6fc', endColorstr='#a2a8eb');
+    background-color: #44f6fc;
+    -webkit-border-top-left-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-left-radius: 15px;
+    text-indent: 0px;
+    border: 2px solid #c1d0e6;
+    display: inline-block;
+    color: #fafafa;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px #69747a;
+    margin: 40px 0 0 0;
+    letter-spacing: 0.13em;
 }
+
 .classname:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a2a8eb), color-stop(1, #44f6fc) );
-	background:-moz-linear-gradient( center top, #a2a8eb 5%, #44f6fc 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a2a8eb', endColorstr='#44f6fc');
-	background-color:#a2a8eb;
-}.classname:active {
-	position:relative;
-	top:1px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a2a8eb), color-stop(1, #44f6fc));
+    background: -moz-linear-gradient(center top, #a2a8eb 5%, #44f6fc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a2a8eb', endColorstr='#44f6fc');
+    background-color: #a2a8eb;
+}
+
+.classname:active {
+    position: relative;
+    top: 1px;
 }
 
 .footer-link {
     color: #11999E;
-    margin: auto;
+    margin: auto 10px;
     position: relative;
-    padding-left: 20px;
+    text-decoration: none;
+}
 
+.footer-link:hover {
+    color: rgb(20, 73, 94);
+    cursor: pointer;
 }
 
 .copyright {
     margin: auto;
     padding: 50px 0 50px 0;
 }
+
 /************************************** ID SELECTORS *************************************/
 /************************************** ID SELECTORS *************************************/
 /************************************** ID SELECTORS *************************************/
 
 #mountain {
-    margin-top: 200px;
+    margin-top: 11%;
+}
+
+/********************************** MEDIA QUERY PHONES ************************************/
+@media screen and (max-width: 600px) {
+
+    body {
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        margin: auto;
+        width: 40%;
+        font-size: 2.5em;
+    }
+
+    #bongocat {
+        width: 100%
+    }
+
+    .cloud {
+        width: 20%;
+    }
+
+    .top-cloud {
+        right: 0;
+        margin-right: 4%;
+    }
+
+    .bottom-cloud {
+        left: 0;
+        margin-left: 13%;
+        top: 55%;
+    }
+
+    #mountain {
+        width: 100%;
+        top: 100vh;
+        margin-top: 21vh;
+    }
+
+    p,
+    .skill-row {
+        width: 85%;
+        margin: auto;
+        display: block;
+    }
+
+    .code-img-desc,
+    #code>h3 {
+        text-align: right;
+        margin: auto;
+    }
+
+    #code>h3 {
+        margin: 0 23.9px;
+    }
+
+    .credit {
+        margin: 0 auto 65px auto;
+    }
+    hr {
+        width: 40%;
+    }
+
 }
