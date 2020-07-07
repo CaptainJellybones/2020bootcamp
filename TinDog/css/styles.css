@@ -56,3 +56,25 @@ body {
     width: 55%;
     padding-left: 10%;
 }
+
+.feature-box {
+    text-align: center;
+    color: #8f8f8f;
+    padding-top: 6%;
+}
+
+.feature-box  > h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: black;
+}
+
+.feature-box > i {
+    color: #ef8172;
+}
+
+.feature-box > i:hover {
+    color: #ff4c68;
+    transition: 0.5s;
+}
