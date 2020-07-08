@@ -53,8 +53,8 @@ body {
 
 .title-image {
     transform: rotate(25deg);
-    width: 55%;
-    padding-left: 10%;
+    width: 60%;
+    margin-left: 20%;
     margin-bottom: 7%
 }
 
@@ -80,4 +80,18 @@ body {
 .feature-box > i:hover {
     color: #ff4c68;
     transition: 0.5s;
+}
+
+/* Testemonial section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff
+}
+
+#testimonials > h2 {
+    font-size: 3rem;
+    line-height: 1.5;
 }
