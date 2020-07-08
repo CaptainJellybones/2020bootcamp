@@ -55,12 +55,13 @@ body {
     transform: rotate(25deg);
     width: 55%;
     padding-left: 10%;
+    margin-bottom: 7%
 }
 
 .feature-box {
     text-align: center;
     color: #8f8f8f;
-    padding-top: 6%;
+    padding: 6%
 }
 
 .feature-box  > h3 {
@@ -72,6 +73,8 @@ body {
 
 .feature-box > i {
     color: #ef8172;
+    font-size: 3rem;
+    margin-bottom: 3%;
 }
 
 .feature-box > i:hover {
