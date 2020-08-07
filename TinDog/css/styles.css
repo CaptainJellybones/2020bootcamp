@@ -91,13 +91,19 @@ body {
     color: #fff
 }
 
-#testimonials > h2 {
+.testimonial-text {
     font-size: 3rem;
     line-height: 1.5;
 }
 
-.carousel-indicaors {
-    margin: auto;
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-item > img {
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px;
 }
 
 #press {
