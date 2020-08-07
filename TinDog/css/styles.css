@@ -85,7 +85,6 @@ body {
 /* Testemonial section */
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff
@@ -97,13 +96,17 @@ body {
 }
 
 .carousel-indicators {
-    bottom: -50px;
+    /* bottom: -50px; */
 }
 
 .carousel-item > img {
     border-radius: 50%;
     width: 10%;
     margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 #press {
