@@ -5,6 +5,13 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
 body {
     font-family: 'Montserrat';
 }
@@ -85,13 +92,34 @@ body {
 /* Testemonial section */
 
 #testimonials {
-    padding: 7% 15%;
+    
     text-align: center;
     background-color: #ef8172;
-    color: #fff
+    color: #fff;
 }
 
-#testimonials > h2 {
-    font-size: 3rem;
-    line-height: 1.5;
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+/* Change the images in press  */
+#press > img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    height: 500px;
+    padding: 7% 26%;
+}
+
+#carouselExampleControls li {
+    
 }
