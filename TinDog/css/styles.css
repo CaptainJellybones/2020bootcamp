@@ -94,4 +94,32 @@ body {
 #testimonials > h2 {
     font-size: 3rem;
     line-height: 1.5;
+<<<<<<< HEAD
+=======
+}
+
+.carousel-indicators {
+    /* bottom: -50px; */
+}
+
+.carousel-item > img {
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+>>>>>>> parent of 06ef37e... Commented out gutter-fix
 }
