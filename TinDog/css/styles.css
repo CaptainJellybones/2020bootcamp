@@ -55,16 +55,16 @@ body {
 
 .title-image {
     transform: rotate(25deg);
-    width: 60%;
+    width: 50%;
     position: absolute;
+    right: 20%;
 }
 
 /* features */
 
 #features {
     background-color: white;
-    position: relative;
-    z-index: 1;
+    position: relative; 
 }
 
 .feature-box {
