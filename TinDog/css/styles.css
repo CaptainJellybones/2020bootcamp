@@ -1,6 +1,6 @@
 h1 {
     font-family: 'Montserrat';
-    font-size: 3.9rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
 }
@@ -11,6 +11,7 @@ body {
 
 .container-fluid {
     padding: 3% 10%;
+
 }
 
 .navbar {
@@ -38,6 +39,7 @@ body {
 #title {
     background-color: #ff4c68;
     color: white;
+    padding-bottom: 10%;
 }
 
 /* Download Buttons */
@@ -54,8 +56,15 @@ body {
 .title-image {
     transform: rotate(25deg);
     width: 60%;
-    margin-left: 20%;
-    margin-bottom: 7%
+    position: absolute;
+}
+
+/* features */
+
+#features {
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
