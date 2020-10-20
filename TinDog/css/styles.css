@@ -48,7 +48,7 @@ body {
     margin: 5% 3% 5% 0;
     font-size: 1.7rem;
     font-family: 'Montserrat';
-    font-weight: bold;
+    font-weight: 400;
 }
 
 /* Title Image */
@@ -154,16 +154,18 @@ body {
 #cta {
     background-color: #ff4c68;
     margin: auto;
+    text-align: center;
 }
 
 #cta>h3 {
-    font-size: 3rem;
+    font-size: 3.2rem;
+    color: white;
     font-family: 'Montserrat';
     font-weight: bold;
-    color: black;
-    text-align: center;
+    padding: 8% 15% 1%;
 }
 
 #footer {
     background-color: #FFF;
+    text-align: center;
 }
