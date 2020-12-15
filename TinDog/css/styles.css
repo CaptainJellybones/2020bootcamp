@@ -1,3 +1,6 @@
+/**************** HTML ELEMENTS **********************/
+/*****************************************************/
+
 h1 {
     font-family: 'Montserrat';
     font-size: 3.5rem;
@@ -8,6 +11,10 @@ h1 {
 body {
     font-family: 'Montserrat';
 }
+
+
+/**************** CLASS ELEMENTS **********************/
+/*****************************************************/
 
 .container-fluid {
     padding: 3% 10%;
@@ -34,16 +41,7 @@ body {
     font-weight: 300;
 }
 
-
-
-#title {
-    background-color: #ff4c68;
-    color: white;
-    padding-bottom: 10%;
-}
-
 /* Download Buttons */
-
 .dl-btn {
     margin: 5% 3% 5% 0;
     font-size: 1.7rem;
@@ -52,34 +50,11 @@ body {
 }
 
 /* Title Image */
-
 .title-image {
     transform: rotate(25deg);
     width: 50%;
     position: absolute;
     right: 20%;
-}
-
-
-@media (max-width: 990px) {
-    .title-image {
-        position: static;
-        transform: rotate(0);
-        margin: auto;
-    }
-
-    .titlenimg {
-        text-align: center;
-        display: block;
-    }
-}
-
-
-/* features */
-
-#features {
-    background-color: white;
-    position: relative; 
 }
 
 .feature-box {
@@ -106,14 +81,6 @@ body {
     transition: 0.5s;
 }
 
-/* Testemonial section */
-
-#testimonials {
-    text-align: center;
-    background-color: #ef8172;
-    color: #fff
-}
-
 .testimonial-text {
     font-size: 3rem;
     line-height: 1.5;
@@ -129,26 +96,52 @@ body {
     padding: 7% 15%;
 }
 
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.footicon {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+/********************* ID ELEMENTS ***********************/
+/*********************************************************/
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    padding-bottom: 10%;
+}
+
+/* features */
+#features {
+    background-color: white;
+    position: relative; 
+}
+
+/* Testemonial section */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff
+}
+
 #press {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 }
 
-.press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
-}
-
 /* pricing section */
-
 #pricing {
     padding: 70px;
     text-align: center;
-}
-
-.pricing-column {
-    padding: 3% 2%;
 }
 
 #cta {
@@ -179,11 +172,23 @@ body {
     padding: 7% 0;
 }
 
-.footicon {
-    margin-bottom: 15px;
-    margin-left: 15px;
-}
-
 #footer p {
     margin: 0;
 }
+
+/*********************** MEDIA QUERY **********************/
+/**********************************************************/
+
+@media (max-width: 990px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin: auto;
+    }
+
+    .titlenimg {
+        text-align: center;
+        display: block;
+    }
+}
+
