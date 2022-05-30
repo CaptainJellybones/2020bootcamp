@@ -1,6 +1,13 @@
+html {
+    overflow: auto;
+}
+
 body {
     background-color: #393E46;
     text-align: center;
+    min-height: 100%;
+    overflow: auto;
+    margin: 4px 0 0 4px;
 }
 
 h1 {
@@ -17,8 +24,17 @@ p {
     font-family: 'Indie Flower', cursive;
 }
 
+header {
+    text-align: left;
+}
+
 img {
     width: 80%;
+}
+
+#backButton {
+    margin: 0;
+    position: absolute;
 }
 
 .container {
@@ -75,3 +91,4 @@ img {
 	position:relative;
 	top:1px;
 }
+
