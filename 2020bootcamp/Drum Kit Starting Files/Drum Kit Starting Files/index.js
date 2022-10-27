@@ -1,9 +1,9 @@
 const numberOfButtons = document.querySelectorAll('.drum');
 const audio = ['./sounds/crash.mp3', './sounds/kick-bass.mp3', './sounds/snare.mp3', './sounds/tom-1.mp3', './sounds/tom-2.mp3', './sounds/tom-3.mp3', './sounds/tom-4.mp3']
 
-function handleClick() {
-    this.style.color = "white";
-    switch (this.innerHTML) {
+function handleClick(e) {
+    // this.style.color = "white";
+    switch (e) {
         case 'w':
             sound = new Audio(audio[0])
             sound.load();
@@ -55,6 +55,10 @@ function handleClick() {
 
 // ForEach button in numberOfButtons, add an eventlistener to the current element that listens for click and fires handleClick when click is true
 numberOfButtons.forEach(element => {
-    element.addEventListener("click", handleClick)
+    element.addEventListener("click", handleClick(this.innerHTML))
 });
 
+document.addEventListener("keydown", function(event) {
+    let keyBtn = event.key
+    handleClick(keyBtn);
+})
