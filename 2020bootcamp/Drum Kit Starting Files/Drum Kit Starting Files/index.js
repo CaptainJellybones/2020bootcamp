@@ -53,12 +53,26 @@ function handleClick(e) {
     // this.style.color = "#DA0463";
 }
 
+function buttonAnimation(currentKey) {
+    var activeButton = document.querySelector("." + currentKey);
+    activeButton.classList.add("pressed");
+
+    setTimeout(function() {
+        activeButton.classList.remove("pressed")
+    }, 100)
+}
+
 // ForEach button in numberOfButtons, add an eventlistener to the current element that listens for click and fires handleClick when click is true
 numberOfButtons.forEach(element => {
-    element.addEventListener("click", handleClick(this.innerHTML))
+    element.addEventListener("click", function() {
+        let clickedBtn = this.innerHTML;
+        handleClick(clickedBtn);
+        buttonAnimation(clickedBtn);
+    })
 });
 
 document.addEventListener("keydown", function(event) {
     let keyBtn = event.key
     handleClick(keyBtn);
+    buttonAnimation(keyBtn);
 })
