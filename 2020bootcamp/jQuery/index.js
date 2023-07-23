@@ -16,6 +16,12 @@ console.log($("h1").hasClass("peepeepoopoo"));
 $("h1").text("Bruh watch your jet!");
 $("button").html("<em>Hey</em>");
 
+// Add a button that removes buttons and a href that toggles to reload the page
+$("body").append("<button id='buttonRemover'>Remove all the buttons</button>");
+$("#buttonRemover").on("click", function(){
+    $("button").animate({width:'toggle'},350);
+    // $("a").slideUp().slideDown();
+})
 
 
 console.log($("img").attr("src"));
